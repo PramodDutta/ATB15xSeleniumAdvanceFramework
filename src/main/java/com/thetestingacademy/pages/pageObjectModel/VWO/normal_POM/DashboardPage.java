@@ -1,4 +1,4 @@
-package com.thetestingacademy.pages.pageObjectModel.VWO;
+package com.thetestingacademy.pages.pageObjectModel.VWO.normal_POM;
 
 import com.thetestingacademy.utils.WaitHelpers;
 import org.openqa.selenium.By;
