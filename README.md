@@ -131,7 +131,7 @@ flowchart TB
 ## 📁 Project Structure
 
 ```
-ATB14xSeleniumAdvanceFramework/
+ATB15xSeleniumAdvanceFramework/
 ├── src/
 │   ├── main/
 │   │   ├── java/com/thetestingacademy/
@@ -168,7 +168,7 @@ ATB14xSeleniumAdvanceFramework/
 │       │   │   ├── orangeHRM/                # OrangeHRM tests
 │       │   │   ├── katalonStudio/            # Katalon tests
 │       │   │   └── idrive/                   # IDrive tests
-│       │   └── utilsExcel/
+│       │   └── utilExcels/
 │       │       └── UtilExcel.java            # Excel data reader
 │       └── resources/
 │           └── TESTDATA.xlsx                 # Test data file
@@ -391,9 +391,11 @@ mvn test -Dsurefire.suiteXmlFiles=testng.xml
 
 | Dependency | Version | Purpose |
 |------------|---------|---------|
-| Selenium Java | 4.39.0 | Browser automation |
-| TestNG | 7.10.2 | Test framework |
-| AssertJ | 3.27.6 | Fluent assertions |
-| Allure TestNG | 2.27.0 | Test reporting |
+| Selenium Java | 4.41.0 | Browser automation |
+| TestNG | 7.12.0 | Test framework |
+| AssertJ | 3.27.7 | Fluent assertions |
+| Allure TestNG | 2.33.0 | Test reporting |
 | Log4j | 2.23.1 | Logging |
-| Apache POI | 5.2.5 | Excel file handling |
+| Apache POI | 5.3.0 | Excel file handling |
+| Dotenv Java | 3.0.0 | Environment variables |
+| SnakeYAML | 2.2 | YAML parsing |
